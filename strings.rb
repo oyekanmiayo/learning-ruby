@@ -22,3 +22,17 @@ age = 200
 name = 'Ayomide'
 puts "Hello #{name},  we see that you are #{age} years old"
 
+
+# When comparing strings, they must be the same case
+puts 'ayo' == 'Ayo'
+puts 'Ayo'.downcase == 'ayo'
+
+# gets adds a \n at the end of the string. This symbols is not visible in puts
+# To get read of it, we'll use chomp
+name = gets
+p name
+puts name
+
+name = gets.chomp
+p name
+puts name

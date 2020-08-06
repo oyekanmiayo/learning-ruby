@@ -1,3 +1,4 @@
+# Use ctrl + shift + r to run document
 letter = %w[a b c] # or ['a', 'b', 'c']
 print letter
 puts
@@ -27,4 +28,11 @@ nums << 1
 nums << 140
 nums << 34
 print nums
+puts
+
+food = %w[bacon orange apple]
+puts food[0]
+puts food[food.size - 1]
+food << 'yogurt'
+print food
 puts
